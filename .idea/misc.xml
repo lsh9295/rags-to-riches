@@ -4,21 +4,32 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/ic_baseline_format_list_bulleted_24.xml" value="0.1315" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/ic_baseline_horizontal_split_24.xml" value="0.1" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/ic_baseline_leaderboard_24.xml" value="0.1" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/ic_baseline_qr_code_24.xml" value="0.1" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/ic_baseline_scatter_plot_24.xml" value="0.1" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/list_drawable.xml" value="0.1315" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/lotto_drawable.xml" value="0.1315" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/drawable/rank_drawable.xml" value="0.1315" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/activity_draw.xml" value="0.24947916666666667" />
-        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/activity_generate.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/activity_qr.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/activity_save.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/draw_fragment.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/fragment_1.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/fragment_2.xml" value="0.2351851851851852" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/fragment_3.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/fragment_4.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/layout/qr_fragment.xml" value="0.24947916666666667" />
         <entry key="..\:/Users/lsh92/AndroidStudioProjects/RagsToRiches/app/src/main/res/menu/menu_main.xml" value="0.1" />
       </map>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/qr_fragment.xml" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
