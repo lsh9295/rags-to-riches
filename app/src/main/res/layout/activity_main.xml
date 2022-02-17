@@ -10,52 +10,51 @@
     <Button
         android:id="@+id/generate"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="0dp"
+        android:layout_height="60dp"
         android:backgroundTint="#74CEFF"
         android:drawableLeft="@drawable/lotto_drawable"
-        android:gravity="left"
+        android:gravity="left|center"
         android:text="당첨번호 생성"
-        android:textSize="20dp" />
+        android:textSize="19dp" />
 
     <Button
         android:id="@+id/save"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="57dp"
         android:backgroundTint="#FFB491"
         android:drawableLeft="@drawable/ic_baseline_format_list_bulleted_24"
-        android:gravity="left"
+        android:gravity="left|center"
         android:text="저장번호 목록"
-        android:textSize="20dp" />
+        android:textSize="19dp" />
 
     <Button
         android:id="@+id/winlist"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="57dp"
         android:backgroundTint="#AADA72"
         android:drawableLeft="@drawable/rank_drawable"
-        android:gravity="left"
+        android:gravity="left|center"
         android:text="회차별 당첨번호"
-        android:textSize="20dp" />
+        android:textSize="19dp" />
 
     <Button
         android:id="@+id/qrcode"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="57dp"
         android:backgroundTint="#FFC107"
         android:drawableLeft="@drawable/ic_baseline_qr_code_24"
-        android:gravity="left"
+        android:gravity="left|center"
         android:text="QR코드 당첨확인"
-        android:textSize="20dp" />
+        android:textSize="19dp" />
 
     <Button
         android:id="@+id/review"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="57dp"
         android:backgroundTint="#ACACAC"
         android:drawableLeft="@drawable/board_drawable"
-        android:gravity="left"
+        android:gravity="left|center"
         android:text="개발자 후기게시판"
-        android:textSize="20dp" />
+        android:textSize="19dp" />
 
 </LinearLayout>
