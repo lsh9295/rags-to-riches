@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding // 뷰 바인딩
     var ballList = ArrayList<Bitmap>() // 1~45 공 이미지 리스트
     lateinit var round : String // 직전회차
+    lateinit var date : String // 추첨날짜
+    lateinit var prize : String // 당첨금
     lateinit var imageView : ImageView
     lateinit var textView : TextView
 
@@ -32,6 +34,21 @@ class MainActivity : AppCompatActivity() {
         getBallList()
         getLottoNum()
 
+        // 당첨번호 생성
+        binding.generate.setOnClickListener {
+            val intent = Intent(this, GenerateActivity::class.java)
+            startActivity(intent)
+        }
+        // 저장번호 목록
+        binding.save.setOnClickListener {
+            val intent = Intent(this, SaveActivity::class.java)
+            startActivity(intent)
+        }
+        // 회차별 당첨번호
+        binding.winList.setOnClickListener {
+            val intent = Intent(this, WinListActivity::class.java)
+            startActivity(intent)
+        }
         // QR코드 당첨확인
         binding.qrcode.setOnClickListener {
             val intent = Intent(this, QrActivity::class.java)
@@ -66,12 +83,19 @@ class MainActivity : AppCompatActivity() {
                     doc = Jsoup.connect("https://dhlottery.co.kr/common.do?method=main&mainMode=default").get()
                     var contents = doc.select("#lottoDrwNo") // 회차
                     round = contents.text() + "회차 당첨번호"
+
                     for (i in 1..6) {
                         contents = doc.select("#drwtNo$i") // 당첨번호
                         nums.add(contents.text().toInt() - 1)
                     }
                     contents = doc.select("#bnusNo") // 보너스번호
                     nums.add(contents.text().toInt() - 1)
+
+                    contents = doc.select("#drwNoDate") // 추첨날짜
+                    date = contents.text() + " 추첨"
+
+                    contents = doc.select("#winnerId") // 당첨금
+                    prize = contents.text()
 
                     bundle.putIntegerArrayList("nums", nums)
                     val msg = handler.obtainMessage()
@@ -89,10 +113,16 @@ class MainActivity : AppCompatActivity() {
             val bundle = msg.data
             val nums = bundle.getIntegerArrayList("nums")
             // 회차
-            textView = binding.roundnum
+            textView = binding.roundnum // 회차
             textView.text = round
-            // 당첨 볼
-            for (i in 0..6) {
+            
+            textView = binding.date // 날짜
+            textView.text = date
+
+            textView = binding.winPrize // 날짜
+            textView.text = prize
+
+            for (i in 0..6) {   // 당첨 볼
                 val num = nums!![i]
                 val tmpID = resources.getIdentifier(
                     "ballView${i + 1}", "id",

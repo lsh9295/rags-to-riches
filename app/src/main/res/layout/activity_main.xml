@@ -21,10 +21,11 @@
 
     <LinearLayout
         android:id="@+id/balls"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/roundnum"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <ImageView
             android:id="@+id/ballView1"
@@ -76,22 +77,22 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/balls"
         android:layout_marginTop="5dp"
         android:gravity="center"
-        android:text="2022.03.04 추첨"
+        android:text="20??.??.?? 추첨"
         android:textSize="19dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/winPrize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView2"
+        android:layout_below="@id/date"
         android:gravity="center"
-        android:text="1등 당첨 금액 : ?"
+        android:text="1등 총 당첨금 ???억원(??명 / ??억)"
         android:textSize="16dp" />
 
     <Button
@@ -109,7 +110,7 @@
         android:id="@+id/save"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_above="@+id/winlist"
+        android:layout_above="@+id/winList"
         android:backgroundTint="#FFB491"
         android:drawableLeft="@drawable/ic_baseline_format_list_bulleted_24"
         android:gravity="left|center"
@@ -117,7 +118,7 @@
         android:textSize="19dp" />
 
     <Button
-        android:id="@+id/winlist"
+        android:id="@+id/winList"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_above="@+id/qrcode"
