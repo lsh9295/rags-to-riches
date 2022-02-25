@@ -11,7 +11,7 @@
         android:id="@+id/winDay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="230dp"
         android:gravity="center"
         android:textSize="20dp" />
 
@@ -20,7 +20,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/winDay"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="15dp"
         android:gravity="center"
         android:text="1회차 ~ 최신회차 조회 가능!"
         android:textSize="25dp" />
@@ -45,8 +48,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:text="조회하기"
-        android:textSize="16dp" />
+        android:textSize="19dp" />
 
 </RelativeLayout>
 

@@ -1,9 +1,319 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GenerateActivity">
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="A"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/list1ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list1ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list1ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list1ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list1ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list1ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="B"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/list2ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list2ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list2ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list2ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list2ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list2ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="C"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/list3ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list3ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list3ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list3ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list3ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list3ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="D"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/list4ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list4ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list4ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list4ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list4ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list4ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="E"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/list5ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list5ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list5ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list5ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list5ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+
+            <ImageView
+                android:id="@+id/list5ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/lotto_1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <Button
+            android:id="@+id/saveNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="번호 저장"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/draw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="번호 추첨"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

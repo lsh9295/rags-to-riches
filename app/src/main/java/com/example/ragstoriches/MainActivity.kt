@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-    protected fun getBallList() { // 로또 볼 리스트 비트맵 추가
+    private fun getBallList() { // 로또 볼 리스트 비트맵 추가
         for (i in 0..44) {
             val bmp = resources.getIdentifier("lotto_" + (i + 1), "drawable", packageName)
             val bitmap = Bitmap.createScaledBitmap(
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
             ballList.add(bitmap)
         }
     }
-    protected fun getLottoNum() { // 직전회차 당첨번호 크롤링
+    private fun getLottoNum() { // 직전회차 당첨번호 크롤링
         val bundle = Bundle()
         val nums = ArrayList<Int>()
 

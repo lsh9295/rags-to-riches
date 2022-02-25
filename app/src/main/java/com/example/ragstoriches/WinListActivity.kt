@@ -67,7 +67,7 @@ class WinListActivity : AppCompatActivity() {
                     }
                 }
                 binding.tv.setText(str)
-                binding.winDay.setText(ymd.replace("\"","").replace("-", "."))
+                binding.winDay.setText(ymd.replace("\"","").replace("-", ". "))
                 binding.firstPrize.setText("1등 당첨금 : " + sb.reverse().toString())
             }, Response.ErrorListener {
                 Toast.makeText(this, "에러", Toast.LENGTH_SHORT).show()
