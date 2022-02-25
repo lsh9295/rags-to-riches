@@ -29,50 +29,50 @@
 
         <ImageView
             android:id="@+id/ballView1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/lotto_1" />
 
         <ImageView
             android:id="@+id/ballView2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/lotto_11" />
 
         <ImageView
             android:id="@+id/ballView3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/lotto_21" />
 
         <ImageView
             android:id="@+id/ballView4"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/lotto_31" />
 
         <ImageView
             android:id="@+id/ballView5"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/lotto_41" />
 
         <ImageView
             android:id="@+id/ballView6"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/lotto_2" />
 
         <ImageView
             android:id="@+id/plus"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/ic_baseline_add_24" />
 
         <ImageView
             android:id="@+id/ballView7"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/lotto_3" />
     </LinearLayout>
 

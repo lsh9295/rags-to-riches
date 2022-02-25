@@ -7,7 +7,6 @@ import android.util.Log
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.Toast
-import com.example.ragstoriches.databinding.ActivityMainBinding
 import com.example.ragstoriches.databinding.ActivityQrBinding
 import com.google.zxing.integration.android.IntentIntegrator
 
@@ -40,7 +39,7 @@ class QrActivity : AppCompatActivity() {
             // 컨텐츠가 없으면
             if (result.contents == null) {
                 //토스트를 띄운다.
-                Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "취소되었습니다.", Toast.LENGTH_LONG).show()
             }
             // 컨텐츠가 있으면
             else {
