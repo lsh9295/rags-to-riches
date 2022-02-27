@@ -26,6 +26,6 @@
         android:layout_marginBottom="7dp"
         android:layout_weight="10"
         android:text="당첨확인"
-        android:textSize="19dp" />
+        android:textSize="17dp" />
 
 </LinearLayout>
