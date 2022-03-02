@@ -2,24 +2,25 @@ package com.example.ragstoriches
 
 import android.app.AlertDialog
 import android.content.DialogInterface
-import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.Bundle
 import android.view.View
-import android.widget.ImageView
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.ragstoriches.databinding.ActivityGenerateBinding
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 
 class GenerateActivity : AppCompatActivity() {
     lateinit var binding : ActivityGenerateBinding
     var ballList = ArrayList<Bitmap>() // 1~45 공 이미지 리스트
     var lottoBoard = Array(5){ IntArray(6){ 0 }}
+    private val db = Firebase.firestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityGenerateBinding.inflate(layoutInflater);
+        binding = ActivityGenerateBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         getBallList()
@@ -30,11 +31,22 @@ class GenerateActivity : AppCompatActivity() {
         binding.saveNum.setOnClickListener {
             // 다이얼로그를 생성하기 위한 Builder 클래스 생성자
             val builder = AlertDialog.Builder(this)
+            val tvName = TextView(this)
+            tvName.text = "제목"
+            val etName = EditText(this)
+            etName.isSingleLine = true
+            val mLayout = LinearLayout(this)
+            mLayout.orientation = LinearLayout.VERTICAL
+            mLayout.setPadding(70,5,70,5)
+            mLayout.addView(tvName)
+            mLayout.addView(etName)
+            builder.setView(mLayout)
+
             builder.setTitle("번호 저장")
-                .setMessage("저장하시겠습니까?")
+                .setMessage("제목을 입력해주세요.")
                 .setPositiveButton("확인",
                     DialogInterface.OnClickListener { dialog, id ->
-                        saveBallNum()
+                        saveBallNum(etName.text.toString())
                         Toast.makeText(this, "저장 되었습니다.", Toast.LENGTH_SHORT).show()
                     })
                 .setNegativeButton("취소",
@@ -83,9 +95,15 @@ class GenerateActivity : AppCompatActivity() {
             }
         }
     }
-    private fun saveBallNum() {
-        val intent = Intent(this, SaveActivity::class.java)
-        intent.putExtra("key", lottoBoard[0])
-        startActivity(intent)
+    private fun saveBallNum(title : String) {
+        val data = hashMapOf(
+            "title" to title,
+            "list1" to lottoBoard[0].toList(),
+            "list2" to lottoBoard[1].toList(),
+            "list3" to lottoBoard[2].toList(),
+            "list4" to lottoBoard[3].toList(),
+            "list5" to lottoBoard[4].toList()
+        )
+        db.collection("SaveNumbs").add(data)
     }
 }

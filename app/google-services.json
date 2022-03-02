@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "549257259008",
+    "project_id": "ragstoriches-cbbc4",
+    "storage_bucket": "ragstoriches-cbbc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549257259008:android:43a628849226f253e510e5",
+        "android_client_info": {
+          "package_name": "com.example.ragstoriches"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549257259008-mp21mdhvs3o5acovbf4kbspqfm6ncii2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ragstoriches",
+            "certificate_hash": "bc481d9dc6c02838ab2114711a9ae287e526c436"
+          }
+        },
+        {
+          "client_id": "549257259008-ikse398qtgkac2co8k1db5thbn2385dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUSu-EnjVme4q0Wlgte-TQgy1bs8QjgIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549257259008-ikse398qtgkac2co8k1db5thbn2385dm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

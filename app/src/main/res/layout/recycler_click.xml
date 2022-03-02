@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="A"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/r1ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/r1ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r1ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/r1ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r1ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/r1ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="B"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/r2ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r2ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+
+            <ImageView
+                android:id="@+id/r2ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r2ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r2ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r2ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="C"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/r3ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r3ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r3ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r3ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r3ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r3ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="D"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/r4ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r4ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r4ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r4ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r4ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r4ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="#000000" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="E"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/r5ball1"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r5ball2"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r5ball3"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r5ball4"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r5ball5"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+            <ImageView
+                android:id="@+id/r5ball6"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </LinearLayout>
